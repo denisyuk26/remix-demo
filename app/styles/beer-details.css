@@ -1,0 +1,139 @@
+.bgimg {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 140px;
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+}
+
+.detail-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0 30px 0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left > img {
+  max-width: 250px;
+  height: 400px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.right h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.right .block {
+  display: flex;
+  gap: 30px;
+}
+
+.right .bold {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.right .tagline {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.right .description {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.right .descriptionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right .yeast {
+  font-size: 18px;
+}
+
+.right .yeastBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right .yeastLabel {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.right .tips {
+  line-height: 24px;
+}
+
+.right .tipsBlock {
+  display: flex;
+  gap: 5px;
+}
+
+.right .tipsLabel {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.tastes {
+  display: flex;
+  gap: 5px;
+}
+
+.tastesLabel {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.tastesItem {
+  align-self: center;
+  line-height: 24px;
+}
+
+.right .description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.description .text {
+  font-size: 18px;
+  line-height: 24px;
+}

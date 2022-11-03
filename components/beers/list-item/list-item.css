@@ -1,0 +1,53 @@
+.item {
+  display: flex;
+  max-width: 350px;
+  width: 100%;
+  height: 150px;
+  transition: scale ease 0.3s;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px 0;
+  gap: 8px;
+  justify-content: center;
+}
+
+.name {
+  margin: 0;
+}
+
+.tagline {
+  font-size: 16px;
+}
+
+.img {
+  max-width: 200px;
+  padding: 20px;
+}
+
+.abv {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.abvValue {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.yeast {
+  font-size: 12px;
+}
